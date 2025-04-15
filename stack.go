@@ -34,7 +34,7 @@ type StackComponent struct {
 	BaseComponent
 	Orientation Orientation    `json:"orientation"`
 	Children    ChildrenSource `json:"children"`
-	Gap         uint           `json:"gap,omitzero"`
+	Gap         uint           `json:"gap"`
 }
 
 func Stack(orientation Orientation) StackComponent {
