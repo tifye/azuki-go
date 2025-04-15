@@ -3,8 +3,8 @@ package azuki
 type Orientation string
 
 const (
-	Vertical   Orientation = "vertical"
-	Horizontal Orientation = "horizontal"
+	OrientationVertical   Orientation = "vertical"
+	OrientationHorizontal Orientation = "horizontal"
 )
 
 type ChildrenSourceType string
