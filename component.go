@@ -9,6 +9,7 @@ var (
 	ComponentTypeStack     ComponentType = "stack"
 	ComponentTypeStat      ComponentType = "stat"
 	ComponentTypeTextInput ComponentType = "textInput"
+	ComponentTypeForm      ComponentType = "form"
 )
 
 type BaseComponent struct {
